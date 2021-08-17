@@ -1,14 +1,13 @@
-# Solana Token Swap Visualization
+# Solana & Serum Program Visualizations 👀
 
-Simple diagrams to explain the 6 instructions of the [Solana Token Swap program](https://github.com/solana-labs/solana-program-library/tree/master/token-swap).
+A picture is worth a thousand words. This repo contains simple visualizations & diagrams to explain the inner workings of various solana & serum programs.
 
-JPEGs below.
+So far it has:
 
-PDF and draw.io XML file in the repo.
+1. [Token Swap](https://spl.solana.com/token-swap)
+2. [Token Lending](https://github.com/solana-labs/solana-program-library/tree/master/token-lending)
+3. [Serum Dex](https://github.com/project-serum/serum-dex) (only NewOrder instruction - but it is the main one)
 
-![init](./images/0001.jpg)
-![swap](./images/0002.jpg)
-![deposit_all](./images/0003.jpg)
-![withdraw_all](./images/0004.jpg)
-![deposit_one](./images/0005.jpg)
-![withdraw_one](./images/0006.jpg)
+I'm building these up as I'm learning the different programs. Given Solana's programming model which doesn't allow for variable sized storage in accounts, there can sometimes be a lot of accounts to deal with. Diagrams like these help a lot. 
+
+Feel free to contribute. I've used draw.io to make these, but you can use whatever you want. 
